@@ -1,0 +1,74 @@
+body {
+    background: #FF4F00; 
+}
+.foto {
+    max-width: 25%;
+    height: auto;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    font-size: 50%;
+    text-decoration: none;
+}
+.imgportfolio {
+    max-width: 80%;
+    height: auto;
+}
+.acercaDeMi {
+    display: flex;
+    justify-content: center;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.contacto {
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+}
+label {
+    margin-left: 5%;
+    margin-left: 10%
+}
+input {
+    margin-left: 10%;
+}
+p {
+    padding: 3px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+button {
+    margin-left: 10%;
+}
+.pieDePagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.parrafo {
+    margin: 0px;
+    margin-right: 1%;
+    font-size: 1em;
+ }
+ .grupo1 {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2em;
+    padding: .94em .625em;
+  }
+  .whatsapp{
+    width: 10%;
+  }
+  .numero {
+    font-size: 3em;
+    color: #212529;
+    margin: 0.5em
+  }
