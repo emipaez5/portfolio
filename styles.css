@@ -1,33 +1,19 @@
 body {
     background: #FF4F00;
 }
-/* .foto {
-    max-width: 25%;
-    height: auto;
-} */
-
-/* .foto {
-    width: 30%;
-    height: auto;
-  } */
-  .foto {
+.foto {
     width: 329.39px;
     height: 357.3px;
-  }
-  h2 {
+}
+h2 {
     font-size: 1.5rem;
     margin: 0.5rem 0;
-  }
+}
 .header {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-/* .header {
-    width: 100%;
-  }
-   */
 a {
     font-size: 50%;
     text-decoration: none;
@@ -67,7 +53,7 @@ button {
 }
 footer {
     width: 100%;
-  }
+}
   
 .pieDePagina {
     display: flex;
@@ -79,47 +65,35 @@ footer {
     margin-right: 1%;
     font-size: 1em;
  }
- /* .grupo1 {
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 2em;
-    padding: .94em .625em;
-  } */
 
-  .grupo1 {
+.grupo1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
-  .whatsapp{
+}
+.whatsapp{
     width: 10%;
-  }
-  .numero {
+}
+.numero {
     font-size: 3em;
     color: #212529;
     margin: 0.5em
-  }
+}
 .box {
     width: 30%;
     margin-bottom: 20px;
-  }
-  /* .porfolio {
-    width: 30%;
-    margin-bottom: 20px;
-  } */
-
-  .porfolio {
+}
+.porfolio {
     flex: 1 0 33%;
     max-width: 33%;
     padding: 0 10px;
     margin-bottom: 20px;
-  } 
+} 
 
-  .row {
+.row {
     display: flex;
     flex-wrap: wrap;
-  }
+}
 @media (max-width: 768px) {
     .grupo1 {
       flex-direction: column;
@@ -133,16 +107,6 @@ footer {
     .porfolio {
         flex-basis: 100%;
         max-width: 100%;
-      }
-    /* .header {
-        display: flex;
-        align-items: center;
-      } */
-    
-    /* .foto {
-        width: 300px;
-        height: 300px;
-        margin-right: 1rem;
-      }   */
+    }
   }
   
