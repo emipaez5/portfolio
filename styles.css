@@ -1,12 +1,12 @@
-body {
-    background: #FF4F00;
-}
+/* body {
+    color: white;
+} */
 .foto {
     width: 329.39px;
     height: 357.3px;
 }
 h2 {
-    font-size: 1.5rem;
+    font-size: 48px;
     margin: 0.5rem 0;
 }
 .header {
@@ -50,6 +50,9 @@ p {
 }
 button {
     margin-left: 10%;
+}
+.lead {
+    font-size: 25px;
 }
 footer {
     width: 100%;
@@ -95,6 +98,9 @@ footer {
     flex-wrap: wrap;
 }
 @media (max-width: 768px) {
+    h2 {
+        font-size: 36px;
+    }
     .grupo1 {
       flex-direction: column;
       align-items: center;
