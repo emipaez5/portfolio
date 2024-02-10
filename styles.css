@@ -1,6 +1,9 @@
-/* body {
-    color: white;
-} */
+*{
+font-weight: bold;
+}
+.items{
+    padding-left: 250PX;
+}
 .foto {
     width: 329.39px;
     height: 357.3px;
@@ -14,8 +17,15 @@ h2 {
     flex-direction: column;
     align-items: center;
 }
+.nombre {
+font-size: 28px;
+font-weight: bold;
+
+}
+.nav-item {
+    font-size: 20px;
+    }
 a {
-    font-size: 50%;
     text-decoration: none;
 }
 .imgportfolio {
@@ -30,6 +40,9 @@ a {
     display: flex;
     flex-direction: column;
     width: 80%;
+}
+.form-label {
+    font-size: 24px;
 }
 .contacto {
     display: flex;
@@ -78,7 +91,7 @@ footer {
     width: 10%;
 }
 .numero {
-    font-size: 3em;
+    font-size: 16px;
     color: #212529;
     margin: 0.5em
 }
@@ -97,6 +110,11 @@ footer {
     display: flex;
     flex-wrap: wrap;
 }
+@media (max-width: 991px) {
+    .items {
+        padding-left: 0px;
+    }
+  }
 @media (max-width: 768px) {
     h2 {
         font-size: 36px;
@@ -115,4 +133,12 @@ footer {
         max-width: 100%;
     }
   }
-  
+  @media (max-width: 425px) {
+    .menu{
+        font-size: 15px;
+    }
+    .container-fluid{
+        padding: auto;
+    }
+  }
+    
