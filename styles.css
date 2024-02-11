@@ -7,6 +7,7 @@ font-weight: bold;
 .foto {
     width: 329.39px;
     height: 357.3px;
+    margin-top: 75px;
 }
 h2 {
     font-size: 48px;
@@ -140,5 +141,12 @@ footer {
     .container-fluid{
         padding: auto;
     }
+    .foto {
+        margin-top: 75px;
+    }
   }
-    
+  @media (max-width: 397px) {
+    .foto {
+        margin-top: 105px;
+    }
+  }  
